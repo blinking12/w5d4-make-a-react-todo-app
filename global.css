@@ -5,3 +5,19 @@
 img {
   width: 100%;
 }
+
+.headClass {
+    text-align: center;
+}
+
+.panelHead {
+    text-align: center;
+}
+
+.panelItems {
+    text-align: left;
+}
+
+.btnCenter {
+    text-align: center;
+}

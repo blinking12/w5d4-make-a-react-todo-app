@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-const Post = (props) => <div className="post">
+const TodoItem = (props) => <div className="post">
     <img src={props.post.image} alt={props.post.title}/>
     <h1>{props.post.title}</h1>
     <p className="lead">

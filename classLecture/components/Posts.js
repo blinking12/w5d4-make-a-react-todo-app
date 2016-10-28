@@ -6,7 +6,7 @@ const Posts = (props) => {
         return <Post post={post} key={i} /> //key needs to be done each time
     })
 
-    //can on return one thing/node
+    //can only return one thing/node
     return <div>
         <h1>Blog Posts </h1>
         {PostItems}
